@@ -1,0 +1,20 @@
+.main {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 90vh;
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+}
+
+.main::-webkit-scrollbar {
+	background-color: #ffdaa9;
+	border-radius: 6px;
+	width: 8px;
+}
+
+.main::-webkit-scrollbar-thumb {
+	background-color: rgba(32, 32, 51, .9);
+	border-radius: 6px;
+	width: 8px;
+}
